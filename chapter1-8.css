@@ -1,0 +1,16 @@
+.list-box {
+  width: 960px;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:nth-child(odd) {
+  background-color: #dcdcdc;
+}
+
+li {
+  padding: 20px 0 20px 20px;
+}
