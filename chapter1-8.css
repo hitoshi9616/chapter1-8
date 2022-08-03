@@ -5,12 +5,12 @@
 }
 
 main {
-  margin: 50px auto 0 auto;
+  margin: 0 auto;
   width: 960px;
 }
 
 .list-box{
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 ul {
