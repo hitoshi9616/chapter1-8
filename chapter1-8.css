@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
-.list-box {
+main {
+  margin: 50px auto 0 auto;
   width: 960px;
-  margin-top: 50px;
+}
+
+.list-box{
+  margin-bottom: 50px;
 }
 
 ul {
@@ -22,7 +26,7 @@ li {
 }
 
 .color-box {
-  margin: 50px 0;
+  margin: 0 0 10px 0;
   width: 960px;
   display: flex;
   flex-wrap: wrap;
@@ -32,4 +36,12 @@ li {
   width: 30%;
   height: 200px;
   background-color: #FFD700;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(1),
+.box:nth-child(5),
+.box:nth-child(9) {
+  background-color: #ff8c00;
 }
