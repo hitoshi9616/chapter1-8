@@ -36,8 +36,16 @@ li {
   width: 30%;
   height: 200px;
   background-color: #FFD700;
-  margin-right: 5%;
   margin-bottom: 40px;
+}
+
+.box1,
+.box2,
+.box4,
+.box5,
+.box7,
+.box8 {
+  margin-right: 5%;
 }
 
 .box:nth-child(1),
